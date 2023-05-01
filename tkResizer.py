@@ -14,7 +14,7 @@ def calibrate():
 def adapt(size):
     OS = sys.platform
     if OS == "linux":
-        return(calibrate()[0]//200)
+        return(calibrate()[0] - (calibrate()[0]//200))
     else:
         return(size)
 
