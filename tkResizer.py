@@ -18,4 +18,3 @@ def adapt(size):
     else:
         return(size)
 
-adapt(10)
